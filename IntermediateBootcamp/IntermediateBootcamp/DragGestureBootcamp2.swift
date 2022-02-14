@@ -39,7 +39,6 @@ struct DragGestureBootcamp2: View {
                             }
                         }
                 )
-            Text("\(currentDragOffsetY)")
         }
         .ignoresSafeArea(edges: .bottom)
     }
