@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A30E701B27C8385B0059C215 /* TypeAliasBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E701A27C8385B0059C215 /* TypeAliasBootcamp.swift */; };
+		A30E701D27C83A530059C215 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E701C27C83A530059C215 /* EscapingBootcamp.swift */; };
 		A351169B27C577FF00733E10 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A351169A27C577FF00733E10 /* HashableBootcamp.swift */; };
 		A355E77127C6D73A0023E95C /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A355E77027C6D73A0023E95C /* CoreDataBootcamp.swift */; };
 		A355E77427C6D8490023E95C /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A355E77227C6D8490023E95C /* FruitsContainer.xcdatamodeld */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		A30E701A27C8385B0059C215 /* TypeAliasBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAliasBootcamp.swift; sourceTree = "<group>"; };
+		A30E701C27C83A530059C215 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
 		A351169A27C577FF00733E10 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 		A355E77027C6D73A0023E95C /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
 		A355E77327C6D8490023E95C /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				A359D46C27C81DF10085945C /* BackgroundThreadBootcamp.swift */,
 				A359D46E27C824110085945C /* WeakSelfBootcamp.swift */,
 				A30E701A27C8385B0059C215 /* TypeAliasBootcamp.swift */,
+				A30E701C27C83A530059C215 /* EscapingBootcamp.swift */,
 				A38A6E5E27BC638600FAC88C /* Sounds */,
 				A3DF7FA127BAEBF900D554A0 /* Assets.xcassets */,
 				A3DF7FA327BAEBF900D554A0 /* Preview Content */,
@@ -216,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A30E701D27C83A530059C215 /* EscapingBootcamp.swift in Sources */,
 				A355E77427C6D8490023E95C /* FruitsContainer.xcdatamodeld in Sources */,
 				A351169B27C577FF00733E10 /* HashableBootcamp.swift in Sources */,
 				A38A6E5D27BC612B00FAC88C /* SoundsBootcamp.swift in Sources */,
