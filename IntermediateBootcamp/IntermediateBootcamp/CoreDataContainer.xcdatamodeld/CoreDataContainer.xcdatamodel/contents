@@ -8,7 +8,7 @@
     <entity name="DepartmentEntity" representedClassName="DepartmentEntity" syncable="YES" codeGenerationType="class">
         <attribute name="name" optional="YES" attributeType="String"/>
         <relationship name="businesses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="BusinessEntity" inverseName="departments" inverseEntity="BusinessEntity"/>
-        <relationship name="employees" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="EmployeeEntity" inverseName="department" inverseEntity="EmployeeEntity"/>
+        <relationship name="employees" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="EmployeeEntity" inverseName="department" inverseEntity="EmployeeEntity"/>
     </entity>
     <entity name="EmployeeEntity" representedClassName="EmployeeEntity" syncable="YES" codeGenerationType="class">
         <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
@@ -19,7 +19,7 @@
     </entity>
     <elements>
         <element name="BusinessEntity" positionX="-54" positionY="-9" width="128" height="14"/>
-        <element name="DepartmentEntity" positionX="154.6677856445312" positionY="-130.14013671875" width="145.5494995117188" height="14"/>
+        <element name="DepartmentEntity" positionX="154.6677856445312" positionY="-130.14013671875" width="145.5494995117188" height="74"/>
         <element name="EmployeeEntity" positionX="263.2483520507812" positionY="-7.64300537109375" width="128" height="14"/>
     </elements>
 </model>

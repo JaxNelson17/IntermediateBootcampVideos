@@ -113,6 +113,11 @@ class CoreDataRelationshipViewModel: ObservableObject {
         save()
     }
     
+    func delteDepartment() {
+        let department = departments[2]
+        manager.context.delete(department)
+        save()
+    }
     
     func save() {
         businesses.removeAll()
@@ -137,7 +142,7 @@ struct CoreDataRelationshipsBootcamp: View {
             ScrollView {
                 VStack(spacing: 20) {
                     Button {
-                        vm.updateBusiness()
+                        vm.delteDepartment()
                     } label: {
                         Text("Perform Action")
                             .foregroundColor(.white)
