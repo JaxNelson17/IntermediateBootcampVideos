@@ -13,6 +13,7 @@
 		A355E77627C6E3BD0023E95C /* CoreDataRelationshipsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A355E77527C6E3BD0023E95C /* CoreDataRelationshipsBootcamp.swift */; };
 		A355E77927C6E5730023E95C /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A355E77727C6E5730023E95C /* CoreDataContainer.xcdatamodeld */; };
 		A359D46D27C81DF10085945C /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359D46C27C81DF10085945C /* BackgroundThreadBootcamp.swift */; };
+		A359D46F27C824110085945C /* WeakSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359D46E27C824110085945C /* WeakSelfBootcamp.swift */; };
 		A38A6E5527BC4BD700FAC88C /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38A6E5427BC4BD700FAC88C /* ScrollViewReaderBootcamp.swift */; };
 		A38A6E5727BC4F9D00FAC88C /* GeometryReaderbootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38A6E5627BC4F9D00FAC88C /* GeometryReaderbootcamp.swift */; };
 		A38A6E5927BC562E00FAC88C /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38A6E5827BC562E00FAC88C /* MultipleSheetsBootcamp.swift */; };
@@ -41,6 +42,7 @@
 		A355E77527C6E3BD0023E95C /* CoreDataRelationshipsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsBootcamp.swift; sourceTree = "<group>"; };
 		A355E77827C6E5730023E95C /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 		A359D46C27C81DF10085945C /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
+		A359D46E27C824110085945C /* WeakSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootcamp.swift; sourceTree = "<group>"; };
 		A38A6E5427BC4BD700FAC88C /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
 		A38A6E5627BC4F9D00FAC88C /* GeometryReaderbootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderbootcamp.swift; sourceTree = "<group>"; };
 		A38A6E5827BC562E00FAC88C /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				A355E77527C6E3BD0023E95C /* CoreDataRelationshipsBootcamp.swift */,
 				A355E77727C6E5730023E95C /* CoreDataContainer.xcdatamodeld */,
 				A359D46C27C81DF10085945C /* BackgroundThreadBootcamp.swift */,
+				A359D46E27C824110085945C /* WeakSelfBootcamp.swift */,
 				A38A6E5E27BC638600FAC88C /* Sounds */,
 				A3DF7FA127BAEBF900D554A0 /* Assets.xcassets */,
 				A3DF7FA327BAEBF900D554A0 /* Preview Content */,
@@ -224,6 +227,7 @@
 				A38A6E6627BC68CD00FAC88C /* LocalNotificationBootcamp.swift in Sources */,
 				A3DF7FA027BAEBF800D554A0 /* ContentView.swift in Sources */,
 				A38A6E5927BC562E00FAC88C /* MultipleSheetsBootcamp.swift in Sources */,
+				A359D46F27C824110085945C /* WeakSelfBootcamp.swift in Sources */,
 				A38A6E5527BC4BD700FAC88C /* ScrollViewReaderBootcamp.swift in Sources */,
 				A3DF7FD027BB024500D554A0 /* LongPressGestureBootcamo.swift in Sources */,
 				A3DF7F9E27BAEBF800D554A0 /* IntermediateBootcampApp.swift in Sources */,
