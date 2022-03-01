@@ -7,11 +7,12 @@
 
 import SwiftUI
 
+
 @main
 struct IntermediateBootcampApp: App {
     var body: some Scene {
         WindowGroup {
-            TimerBootcamp()
+            SubscriberBootcamp()
         }
     }
 }
