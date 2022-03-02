@@ -12,7 +12,7 @@ import SwiftUI
 struct IntermediateBootcampApp: App {
     var body: some Scene {
         WindowGroup {
-            SubscriberBootcamp()
+            FileManagerBootcamp()
         }
     }
 }
